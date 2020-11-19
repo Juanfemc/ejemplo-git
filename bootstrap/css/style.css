@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a{
+    color: #fff !important;
+    font-size: 18px;
+}
+
+nav ul a:hover{
+    color: #31427d !important;
+}
+
+nav ul{
+    padding: 0 1rem !important;
+}
+
+nav ul .active{
+    color: #31427d !important;
+}
+
+.navbar{
+    padding:  20px 5px;
+}
+
+.navbar .navbar-brand{
+    margin: 0 1rem;
+}
+
+header{
+    height: 450px;
+    background-color: #0809;
+    border-bottom: 4px solid #312e2e;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+header h1{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 500;
+}
+
+header h1 .name{
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+
+header h1 .profesion{
+    color: #31427d;
+}
+
+.padding-container{
+    padding: 55px 40px;
+}
+
+
+.container-text{
+    padding: 0 65px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-text .sub-title{
+    color: #31427d;
+    font-size: 30px;
+}
+
+.container-text .text{
+    font-size: 20px;
+}
+
+.widget{
+    margin-bottom: 20px;
+    border-bottom: 4px solid #31427d;
+    font-weight: bold;
+    font-size: 1.35em;
+}
+
+.widget .color-youtube{
+    color: #f00;
+}
+
+.widget .table{
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+}
+
+button a{
+    color: #fff;
+}
+
+button a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #31427d;
+}
+
+.bg-black{
+    background-color: #181717;
+}
+
+
+.container-aboutme .text-aboutme{
+    font-size: 18px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@supports(object-fit: cover){
+    .container-aboutme  img{
+      width: 100%;
+      height: 456px;
+      object-fit: cover;
+      object-position: top;
+    }
+}
+
+footer{
+    height: 200px;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; 
+    font-size: 18px;   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .content-social{
+    font-size: 38px;
+}
+
+
+footer .content-social a{
+    color: #fff;
+    margin: 0 5px;
+}
+
+
+/* -------------MEDIA QUERIES---------------- */
+
+@media only screen and (max-width: 670px) {
+    .container-fluid{
+        width: 90% !important;
+    }
+
+    .padding-container{
+        padding: 75px 20px;
+    }
+
+    .widget{
+        border: 0;
+    }
+
+    .container-text {
+      padding: 0;
+    }
+
+    .container-text .sub-title {
+        font-size: 26px;
+      }
+
+      .container-text .text {
+        font-size: 16px;
+      }
+
+      footer .content-social a{
+          
+      }
+  }
+
